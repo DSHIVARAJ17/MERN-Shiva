@@ -1,0 +1,15 @@
+.box{
+    padding: 20px;
+    background-color: palegreen;
+    border: 10px;
+    border-color: red;
+    border-style: solid;
+}
+.fixed-position{
+    position: fixed;
+    background-color: red;
+    text-align: center;
+}
+.relative-position{
+    position: relative;
+}
