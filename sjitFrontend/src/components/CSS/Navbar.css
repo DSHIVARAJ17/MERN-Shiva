@@ -8,3 +8,10 @@ nav{
     background-color: slategrey;
     justify-content: space-evenly;
 }
+button{
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.button{
+    padding-left: 30px;
+}
