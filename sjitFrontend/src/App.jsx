@@ -24,7 +24,6 @@ import UseRef from "./components/functional components/UseRef.jsx";
 
 import UseMemo from "./components/functional components/UseMemo.jsx";
 
-import './components/css/navbar.css';
 function App(){
 
   return(

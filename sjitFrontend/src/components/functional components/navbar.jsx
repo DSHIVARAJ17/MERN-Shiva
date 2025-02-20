@@ -1,6 +1,6 @@
 import { Link } from "react-router-dom";
 import { useState } from "react";
-
+import '../css/navbar.css'
 const Navbar = () => {
   var [dropdown1, setDropdown] = useState(false);
   return (
