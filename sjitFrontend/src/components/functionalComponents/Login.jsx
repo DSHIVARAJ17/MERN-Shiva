@@ -1,4 +1,4 @@
-const loGin=()=>{
+const Login=()=>{
     return(
         <div>
         <div class="outerbox">
@@ -13,4 +13,4 @@ const loGin=()=>{
         </div>
     );
 }
-export default loGin;
+export default Login;

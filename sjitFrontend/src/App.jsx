@@ -1,29 +1,16 @@
-import Home from "./components/functional components/Home.jsx";
-
-import About from "./components/functional components/About.jsx";
-
-import Gallery from "./components/functional components/Gallery.jsx";
-
-import Contact from "./components/functional components/Contact.jsx";
-
-import SignUp from "./components/functional components/SignUp.jsx";
-
-import Navbar from "./components/functional components/navbar.jsx";
-
-import UseEffect from "./components/functional components/UseEffect.jsx";
-
+import Home from "./components/functionalComponents/Home";
+import About from "./components/functionalComponents/About";
+import Gallery from "./components/functionalComponents/Gallery";
+import Contact from "./components/functionalComponents/Contact";
+import SignUp from "./components/functionalComponents/SignUp";
+import Navbar from "./components/functionalComponents/Navbar";
+import UseEffect from "./components/functionalComponents/UseEffect";
 import {BrowserRouter,Routes,Route} from 'react-router-dom';
-
-import LoGin from "./components/functional components/loGin.jsx";
-
-import UseState from "./components/functional components/UseState.jsx";
-
-import UseEffectAPI from "./components/functional components/UseEffect.jsx";
-
-import UseRef from "./components/functional components/UseRef.jsx";
-
-import UseMemo from "./components/functional components/UseMemo.jsx";
-import './components/css/navbar.css';
+import LoGin from "./components/functionalComponents/Login";
+import UseState from "./components/functionalComponents/UseState";
+import UseEffectAPI from "./components/functionalComponents/UseEffect";
+import UseRef from "./components/functionalComponents/UseRef";
+import UseMemo from "./components/functionalComponents/UseMemo";
 function App(){
 
   return(
