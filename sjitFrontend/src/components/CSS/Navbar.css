@@ -1,17 +1,42 @@
-*{
-    margin: 0;
+/* *{
+    margin: 0; 
     padding: 0 ;
+} */
+span:hover{
+    background-color:wheat;
+    height: 20px;
+    border-radius: 10px;
 }
 nav{
     display: flex;
     list-style-type: none;
-    background-color: slategrey;
-    justify-content: space-evenly;
+    background-color:rgb(121, 198, 233);
+    height: 20px;
+    justify-content: space-between;
+    padding: 10px;
 }
-button{
-    padding-left: 10px;
-    padding-right: 10px;
+
+.link{
+    text-decoration: none;
+    color:navy;
 }
-.button{
-    padding-left: 30px;
+li{
+    color: navy;
+    padding:5px;
+}
+li:hover{
+    background-color:wheat;
+    height: 20px;
+    border-radius: 10px;
+}
+.dropdown{
+    padding: 0;
+    
+}
+.dropdown-list{
+    top: 10px;
+    list-style-type: none;
+    background-color: cornflowerblue;
+    border-radius: 10px;
+    align-content: left;
 }

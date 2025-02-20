@@ -1,27 +1,78 @@
+import Home from "./components/functional components/Home.jsx";
 
-import ClassCompEg from './components/ClassComponents/ClassComponent';
-import About from './components/Functionalcomponents/About';
-import Contact from './components/Functionalcomponents/Contact';
-import Gallery from './components/Functionalcomponents/Gallery';
-import Home from './components/Functionalcomponents/Home';
-import Signup from './components/Functionalcomponents/Signup';
-import Navbar from './components/Functionalcomponents/Navbar';
-import './components/CSS/Navbar.css';
-import {BrowserRouter,Routes,Route} from 'react-router-dom'
+import About from "./components/functional components/About.jsx";
 
-function home(){
+import Gallery from "./components/functional components/Gallery.jsx";
+
+import Contact from "./components/functional components/Contact.jsx";
+
+import SignUp from "./components/functional components/SignUp.jsx";
+
+import Navbar from "./components/functional components/navbar.jsx";
+
+import UseEffect from "./components/functional components/UseEffect.jsx";
+
+import {BrowserRouter,Routes,Route} from 'react-router-dom';
+
+import LoGin from "./components/functional components/loGin.jsx";
+
+import UseState from "./components/functional components/UseState.jsx";
+
+import UseEffectAPI from "./components/functional components/UseEffect.jsx";
+
+import UseRef from "./components/functional components/UseRef.jsx";
+
+import UseMemo from "./components/functional components/UseMemo.jsx";
+
+import './components/css/navbar.css'
+
+
+function App(){
+
   return(
-    <BrowserRouter>
-        <Navbar/>
+
+    
+
+    <main>
+
+      
+
+      <BrowserRouter>
+
+        <Navbar></Navbar>
+
         <Routes>
-          <Route path='/Home' element = {<Home properties="Hello" sjit = "SJIT"/>}></Route>
-          <Route path='/About' element = {<About/>}></Route>
-          <Route path='/Contact' element = {<Contact/>}></Route>
-          <Route path='/Signup' element = {<Signup/>}></Route>
-          <Route path='/Gallery' element = {<Gallery/>}></Route>
+
+          <Route path="/" element={<Home/>}></Route>
+
+          <Route path="/About" element={<About/>}></Route>
+
+          <Route path="/Gallery" element={<Gallery/>}></Route>
+
+          <Route path="/Contact" element={<Contact/>}></Route>
+
+          <Route path="/SignUp"  element={<SignUp/>}></Route>
+
+          <Route path="/UseEffect" element={<UseEffect/>}></Route>
+
+          <Route path="/loGin" element={<LoGin />}></Route>
+
+          <Route path="/UseState" element={<UseState/>}></Route>
+
+          <Route path="/UseEffectAPI" element={<UseEffectAPI/>}></Route>
+
+          <Route path="/UseRef" element={<UseRef/>}></Route>
+
+          <Route path="/UseMemo" element={<UseMemo/>}></Route>
+
         </Routes>
+
       </BrowserRouter>
 
-  )
+    </main>
+
+  );
+
 }
-export default home;
+
+export default App;
