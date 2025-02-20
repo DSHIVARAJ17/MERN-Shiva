@@ -39,7 +39,7 @@ function App(){
 
       <BrowserRouter>
 
-        <Navbar></Navbar>
+        <Navbar />
 
         <Routes>
 

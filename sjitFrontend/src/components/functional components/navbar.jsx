@@ -1,6 +1,6 @@
 import { Link } from "react-router-dom";
 import { useState } from "react";
-const navbar = () => {
+const Navbar = () => {
   var [dropdown1, setDropdown] = useState(false);
   return (
 
@@ -52,4 +52,4 @@ const navbar = () => {
     </header>
   );
 };
-export default navbar;
+export default Navbar;
